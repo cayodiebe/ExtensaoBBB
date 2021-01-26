@@ -1,0 +1,12 @@
+{
+  "name": "Extensão p/ Conseguir Trabalhar",
+  "version": "1.0",
+  "description": "Extensão p/ Conseguir Trabalhar sem ficar maluco!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ]
+}
